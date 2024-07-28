@@ -1,0 +1,29 @@
+.overlay{
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.game-over-text{
+  font-size: 50px;
+  color: white;
+}
+
+.play-again-button{
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 10px;
+  color: white;
+  background-color: rgb(104, 167, 189);
+  cursor: pointer;
+}
